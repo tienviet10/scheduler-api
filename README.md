@@ -125,3 +125,7 @@ Response:
   }
 }
 ```
+
+## Deployment
+- Backend is deployed to <a href="https://railway.app/">Railway.app</a>
+- Postgres Database hosted by <a href="https://railway.app/">Railway.app</a>.
