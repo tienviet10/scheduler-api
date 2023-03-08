@@ -17,6 +17,10 @@ wss.on("connection", socket => {
   };
 });
 
+wss.on('close', close => {
+  console.log('disconnected');
+});
+
 function updateAppointment(id, interview) {
   wss.clients.forEach(function eachClient(client) {
     if (client.readyState === WebSocket.OPEN) {
